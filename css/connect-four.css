@@ -1,0 +1,92 @@
+
+#connect-four {
+	width: 100%;
+}
+
+#connect-four .wrapper {
+	margin: 0px auto;
+	max-width: 1020px;
+	
+}
+
+#connect-four .wrapper table {
+    border: 2px solid #bbb;
+    background-color: #0000FF;
+    margin-bottom: 0px;
+}
+
+#connect-four .wrapper table td {
+	padding: 2px;
+	border-top: 0px;
+}
+
+#connect-four .wrapper table td button {
+    border: 3px solid #bbb;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+}
+
+#connect-four .players {
+	margin: 0px auto;
+	max-width: 1020px;
+	padding: 0px;
+}
+
+#connect-four .players img{
+	max-height: 55px;
+}
+
+#connect-four .player-1,
+#connect-four .player-2 {
+	min-height: 70px;
+	line-height: 70px;
+}
+
+.yellow {
+	background-color: #FFFF00;
+}
+
+.red {
+	background-color: #ff1a1a;
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	#connect-four .wrapper table td button {
+	    border: 2px solid #bbb;
+	    border-radius: 50%;
+	    height: 60px;
+	    width: 60px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	#connect-four .wrapper table td button {
+	    border: 2px solid #bbb;
+	    border-radius: 50%;
+	    height: 50px;
+	    width: 50px;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	#connect-four .wrapper table td button {
+	    border: 1px solid #bbb;
+	    border-radius: 50%;
+	    height: 40px;
+	    width: 40px;
+	}
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+  	#connect-four .wrapper table td button {
+	    border: 1px solid #bbb;
+	    border-radius: 50%;
+	    height: 35px;
+	    width: 35px;
+	}  
+}
